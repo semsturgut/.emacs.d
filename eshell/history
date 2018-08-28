@@ -1,0 +1,6 @@
+ls
+cp .emacs .emacsbackup
+ls
+ls .emacs
+ls .emacsbackup 
+nano .emacsbackup 
