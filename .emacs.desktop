@@ -2,12 +2,12 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Aug 28 18:46:22 2018
+;; Created Tue Aug 28 18:53:49 2018
 ;; Desktop file format version 208
 ;; Emacs version 26.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23429 28238 783599 0) (desktop . "208") "sems@Semss-MacBook-Pro.local" nil nil ((((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Source Code Pro-normal-normal-normal-*-18-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b2b2b2") (background-color . "#292b2e") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#e3dedd") (environment) (powerline-cache) (frameset--id . "1B4E-429E-0B98-48AB") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . "Semss-MacBook-Pro.local") (explicit-name) (tool-bar-position . top) (visibility . t) (frameset--text-pixel-height . 958) (height . 41) (width . 82) (left . 0) (top . 22)) ((min-height . 4) (min-width . 11) (min-height-ignore . 3) (min-width-ignore . 11) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 92) (min-pixel-width . 121) (min-pixel-height-ignore . 69) (min-pixel-width-ignore . 121) (min-pixel-height-safe . 23) (min-pixel-width-safe . 22)) leaf (pixel-width . 918) (pixel-height . 935) (total-width . 83) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "README.md" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 7) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 87) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (23429 28685 828388 0) (desktop . "208") "sems@Semss-MacBook-Pro.local" nil nil ((((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Source Code Pro-normal-normal-normal-*-18-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#b2b2b2") (background-color . "#292b2e") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#e3dedd") (environment) (powerline-cache) (frameset--id . "1B4E-429E-0B98-48AB") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . "Semss-MacBook-Pro.local") (explicit-name) (tool-bar-position . top) (visibility . t) (frameset--text-pixel-height . 958) (height . 41) (width . 82) (left . 0) (top . 22)) ((min-height . 4) (min-width . 11) (min-height-ignore . 3) (min-width-ignore . 11) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 92) (min-pixel-width . 121) (min-pixel-height-ignore . 69) (min-pixel-width-ignore . 121) (min-pixel-height-safe . 23) (min-pixel-width-safe . 22)) leaf (pixel-width . 918) (pixel-height . 935) (total-width . 83) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "README.md" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 7) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
@@ -22,11 +22,11 @@
   "README.md"
   'fundamental-mode
   '(yas-minor-mode helm-mode golden-ratio-mode linum-mode)
-  87
+  3
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 23429 28190 420740 0) (buffer-file-coding-system . utf-8-unix))
+  '((buffer-display-time 23429 28679 688681 0) (buffer-file-coding-system . utf-8-unix))
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
@@ -38,6 +38,6 @@
   '(1704 nil)
   nil
   nil
-  '((buffer-display-time 23429 28190 352161 0) (buffer-file-coding-system . undecided-unix))
+  '((buffer-display-time 23429 28679 651670 0) (buffer-file-coding-system . undecided-unix))
   '((mark-ring (1438 1 2600 492 139 452 452 1268 1223 428 595 533 901 471 901))))
 
