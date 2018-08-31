@@ -4,7 +4,8 @@
 (package-initialize)
 ;; Visual Settings
 (set-frame-font "Source Code Pro 18" nil t)
-(setq-default truncate-lines t)
+;; (setq-default truncate-lines t)
+(global-visual-line-mode t)
 (show-paren-mode 1)
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
@@ -55,6 +56,23 @@
 ;; exec-path-from-shell This fix the PATH issue.
 (when (memq window-system '(mac ns x))
   (exec-path-from-shell-initialize))
+;; Dart analysis support
+(require 'flycheck)
+(require 'dart-mode)
+(setq dart-format-path "dartfmt")
+(setq dart-executable-path "/Users/sems/flutter/bin/cache/dart-sdk/bin/dart")
+(setq dart-analysis-server-snapshot-path "/Users/sems/flutter/bin/cache/dart-sdk/bin/snapshots/analysis_server.dart.snapshot")
+(setq dart-debug t)
+(setq dart-sdk-path "/Users/sems/flutter/bin/cache/dart-sdk/")
+(setq dart-enable-analysis-server t)
+(add-to-list 'auto-mode-alist '("\\.dart\\'" . dart-mode))
+(add-hook 'dart-mode-hook 'dart-file-handle)
+(add-hook 'dart-mode-hook 'flycheck-mode)
+;; (add-to-list 'load-path "~/.emacs.d/lisp/company-dart/")
+;; (load "company-dart.el")
+;; (add-hook 'dart-mode-hook (lambda ()
+;; 			    (set (make-local-variable 'company-backends)
+;; 				 '(company-dart (company-dabbrev company-yankpad)))))
 
 
 
@@ -63,13 +81,13 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (spacemacs-dark)))
+ '(custom-enabled-themes (quote (dracula)))
  '(custom-safe-themes
    (quote
-    ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
+    ("aaffceb9b0f539b6ad6becb8e96a04f2140c8faa1de8039a343a4f1e009174fb" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(package-selected-packages
    (quote
-    (restart-emacs company auto-complete-c-headers spaceline-all-the-icons spacemacs-theme spaceline exec-path-from-shell helm-core helm yasnippet-snippets multiple-cursors golden-ratio auto-complete))))
+    (pos-tip dracula-theme magit dart-mode restart-emacs company auto-complete-c-headers spaceline-all-the-icons spaceline exec-path-from-shell helm-core helm yasnippet-snippets multiple-cursors golden-ratio auto-complete))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
