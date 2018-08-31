@@ -4,3 +4,61 @@ ls
 ls .emacs
 ls .emacsbackup 
 nano .emacsbackup 
+ls
+cd ..
+ls
+flutter devices
+ls
+cd ..
+ls
+fish
+flutter doctor
+flutter -h
+flutter run
+ls
+ls
+ls
+flutter doctor
+flutter devices
+flutter devices
+flutter -h
+flutter run -h
+flutter run --release
+cd ..
+ls
+flutter run --release
+flutter clean
+flutter run --release
+flutter --help
+flutter emulators
+flutter emulators --launch Pixel*
+flutter emulators --launch Pixel_2_API_27
+flutter emulators --launch Pixel_2_API_27
+flutter emulators --launch Google
+flutter emulators --launch pixel_2
+flutter run --help
+flutter run
+cd ..
+ls
+flutter run --help
+flutter run
+ls
+cd Documents/Workspace/mbed/
+ls
+cd OpenCV/
+ls
+git clone https://github.com/georgesung/road_lane_line_detection.git
+ls
+cd road_lane_line_detection/
+ls
+python lane_lines.py -i challenge.mp4 -o extra.mp4
+cd Documents/Workspace/mbed/OpenCV/
+ls
+clear
+rm -rf road_lane_line_detection/
+ls
+cd cameraCV/
+ls
+cd ..
+ls
+git clone https://github.com/oneshell/road-lane-detection.git
