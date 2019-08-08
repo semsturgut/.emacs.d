@@ -1,32 +1,3 @@
-ls
-cp .emacs .emacsbackup
-ls
-ls .emacs
-ls .emacsbackup 
-nano .emacsbackup 
-ls
-cd ..
-ls
-flutter devices
-ls
-cd ..
-ls
-fish
-flutter doctor
-flutter -h
-flutter run
-ls
-ls
-ls
-flutter doctor
-flutter devices
-flutter devices
-flutter -h
-flutter run -h
-flutter run --release
-cd ..
-ls
-flutter run --release
 flutter clean
 flutter run --release
 flutter --help
@@ -62,3 +33,96 @@ ls
 cd ..
 ls
 git clone https://github.com/oneshell/road-lane-detection.git
+ls
+cd Documents/Workspace/
+ls
+cd Documents/Workspace/mbed/ARM/ESP_RTOS/uart_echo/
+ls
+make flash
+cd build/
+ls
+cd ..
+ls
+cd main/
+ls
+make flash
+ls
+make flash
+cd ..
+make flash
+cd main/
+ls
+cd ..
+ls
+make config
+make menuconfig
+fish
+ls
+echo $PATH
+ls
+make flash
+make menuconfig
+make flash
+echo IDF_PATH
+echo $IDF_PATH
+make IDF_PATH=$IDF_PATH
+make flash
+ls
+make IDF_PATH=$IDF_PATH
+echo $IDF_PATH
+ls
+ls
+echo $IDF_PATH
+emacs -nw
+xtensa-lx106-elf-gcc --version
+echo $IDF_PATH
+ls
+cd ..
+ls
+ls
+ls
+make
+cd source/
+ls
+make flash
+cd 
+cd Documents/Workspace/
+ls
+cd mbed/ARM/mbedOS/
+ls
+ls -la
+cd ..
+ls
+cd ESP_RTOS/uart_echo/
+ls
+cd main/
+ls
+make flash
+ls
+cd ..
+ls
+fsih
+fish
+ls
+fish
+cd Documents/Workspace/mbed/ARM/ESP_RTOS/uart_echo/
+ls
+clear
+ls
+cd main/
+ls
+make flash
+cd ..
+ls
+make flash
+ls
+make flash
+cd ..
+ls
+make flash
+cd main/
+ls
+make flash
+ls
+lslsls
+ls
