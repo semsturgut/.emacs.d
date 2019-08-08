@@ -1,2 +1,2 @@
 # Personal emacs setup
-Personal emacs configurations with spacemacs theme, nothing more.
+Personal emacs configurations with dracula theme, nothing more.
