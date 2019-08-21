@@ -1,22 +1,3 @@
-flutter clean
-flutter run --release
-flutter --help
-flutter emulators
-flutter emulators --launch Pixel*
-flutter emulators --launch Pixel_2_API_27
-flutter emulators --launch Pixel_2_API_27
-flutter emulators --launch Google
-flutter emulators --launch pixel_2
-flutter run --help
-flutter run
-cd ..
-ls
-flutter run --help
-flutter run
-ls
-cd Documents/Workspace/mbed/
-ls
-cd OpenCV/
 ls
 git clone https://github.com/georgesung/road_lane_line_detection.git
 ls
@@ -126,3 +107,22 @@ make flash
 ls
 lslsls
 ls
+ls
+g++ ROMAN1.CPP -o ROMAN1.o
+g++ ROMAN1.CPP -o ROMAN1.o
+gcc ROMAN1.CPP -o ROMAN1.o
+g++ ROMAN1.CPP -o ROMAN1.o
+ls
+clear
+ls
+./ROMAN1.o
+g++ ROMAN1.CPP -o ROMAN1.o ; ./ROMAN.o
+g++ ROMAN1.CPP -o ROMAN1.o & ./ROMAN.o
+g++ ROMAN1.CPP -o ROMAN1.o ; ROMAN.o
+g++ ROMAN1.CPP -o ROMAN1.o ; .ROMAN.o
+g++ ROMAN1.CPP -o ROMAN1.o ; ~/Documents/Workspace/GitHub/algdscpp/CHAP01/ROMAN.o
+g++ ROMAN1.CPP -o ROMAN1.o ; /Users/sems/Documents/Workspace/GitHub/algdscpp/CHAP01/ROMAN.o
+g++ ROMAN1.CPP -o ROMAN1.o ; .ROMAN1.o
+ROMAN1.o
+./ROMAN1.o
+g++ ROMAN1.CPP -o ROMAN1.o ; ./ROMAN1.o
