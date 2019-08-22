@@ -1,4 +1,3 @@
-ls
 git clone https://github.com/georgesung/road_lane_line_detection.git
 ls
 cd road_lane_line_detection/
@@ -126,3 +125,4 @@ g++ ROMAN1.CPP -o ROMAN1.o ; .ROMAN1.o
 ROMAN1.o
 ./ROMAN1.o
 g++ ROMAN1.CPP -o ROMAN1.o ; ./ROMAN1.o
+ccstudio

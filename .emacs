@@ -11,6 +11,8 @@
 (show-paren-mode 1)
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
+(electric-pair-mode 1)
+(setq electric-pair-preserve-balance nil)
 ;; (add-to-list 'default-frame-alist '(height . 43))
 ;; (add-to-list 'default-frame-alist '(width . 74))
 (setq inhibit-startup-screen t)
@@ -23,8 +25,8 @@
 ;; example ((nil . ((company-clang-arguments . ("-I/workspace/"))))
 (require 'company)
 (add-hook 'after-init-hook 'global-company-mode)
-(define-key c-mode-map [(tab)] 'company-complete)
-(define-key c++-mode-map [(tab)] 'company-complete)
+(define-key c-mode-map [(C-tab)] 'company-complete)
+(define-key c++-mode-map [(C-tab)] 'company-complete)
 ;; header file comletion with company-c-headers
 (add-to-list 'company-backends 'company-c-headers)
 ;; Delete selected text
@@ -91,10 +93,12 @@
     ("aaffceb9b0f539b6ad6becb8e96a04f2140c8faa1de8039a343a4f1e009174fb" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(package-selected-packages
    (quote
-    (golden-ratio company-c-headers company rainbow-delimiters ag pos-tip dracula-theme magit restart-emacs spaceline-all-the-icons spaceline helm-core helm yasnippet-snippets multiple-cursors)))
+    (flycheck golden-ratio company-c-headers company rainbow-delimiters ag pos-tip dracula-theme magit restart-emacs spaceline-all-the-icons spaceline helm-core helm yasnippet-snippets multiple-cursors)))
  '(safe-local-variable-values
    (quote
-    ((company-clang-arguments "-I/Users/sems/Documents/Workspace/mbed/ARM/TI/TMS570LS1224_Example/include/")
+    ((company-clang-arguments "-I/Users/sems/Documents/Workspace/Embedded System/ARM/TI/TMS570LS1224_Example/include/" "-I/Users/sems/Documents/Workspace/Embedded System/ARM/TI/TMS570LS1224_Example/source/")
+     (company-clang-arguments "-I/Users/sems/Documents/Workspace/Embedded System/ARM/TI/TMS570LS1224_Example/include/")
+     (company-clang-arguments "-I/Users/sems/Documents/Workspace/Embedded Systems/ARM/TI/freeRTOSBlinky/include/")
      (company-clang-arguments "-I/Users/sems/esp/ESP8266_RTOS_SDK/components/esp8266/include/" "-I/Users/sems/esp/ESP8266_RTOS_SDK/components/freertos/include/")
      (company-clang-arguments "-I/Users/sems/esp/ESP8266_RTOS_SDK/components/esp8266/include/" "-I/Users/sems/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/")
      (company-clang-arguments "-I/Users/sems/esp/ESP8266_RTOS_SDK/components/esp8266/include/
