@@ -2,18 +2,186 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Aug 22 14:53:11 2019
+;; Created Wed Oct 16 10:50:11 2019
 ;; Desktop file format version 208
-;; Emacs version 26.1
+;; Emacs version 26.3
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23902 33319 588961 0) (desktop . "208") "sems@Semss-MacBook-Pro-4.local" nil nil ((((minibuffer . t) (font-backend mac-ct) (fontsize . 0) (font . "-*-Source Code Pro-normal-normal-normal-*-18-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#f8f8f2") (background-color . "#282a36") (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (undecorated) (ns-appearance . unbound) (ns-transparent-titlebar . unbound) (z-group) (no-focus-on-map) (no-accept-focus) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . fullboth) (display-type . color) (background-mode . dark) (cursor-color . "#ccccc7") (environment) (powerline-cache) (modeline . t) (unsplittable) (frameset--id . "9505-E418-5BD5-3F50") (frameset--mini t . t) (display . "Semss-MacBook-Pro-4.local") (icon-name) (explicit-name) (tool-bar-position . top) (visibility . t) (frameset--text-pixel-width . 820) (frameset--text-pixel-height . 1001) (height . 45) (width . 150) (left . 0) (top . 0)) ((min-height . 4) (min-width . 22) (min-height-ignore . 3) (min-width-ignore . 22) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 92) (min-pixel-width . 242) (min-pixel-height-ignore . 69) (min-pixel-width-ignore . 242) (min-pixel-height-safe . 23) (min-pixel-width-safe . 44)) hc (pixel-width . 1676) (pixel-height . 1023) (total-width . 152) (total-height . 44) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1113) (pixel-height . 1023) (total-width . 101) (total-height . 44) (normal-height . 1.0) (normal-width . 0.6640811455847255) (buffer "*scratch*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 7) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 145) (start . 1))) (leaf (last . t) (pixel-width . 563) (pixel-height . 1023) (total-width . 51) (total-height . 44) (normal-height . 1.0) (normal-width . 0.33591885441527447) (buffer "*scratch*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 7) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 145) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (23974 52147 908282 821000) (desktop . "208") "sems@archlinux" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-ADBO-Source Code Pro-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (font-parameter . "Source Code Pro 12") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#f8f8f2") (background-color . "#282a36") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#ccccc7") (sticky) (environment) (powerline-cache) (frameset--id . "0182-C0D2-EC0D-93FA") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (height . 89) (width . 106) (left + -1) (top + -1)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 84) (min-pixel-width . 100) (min-pixel-height-ignore . 84) (min-pixel-width-ignore . 40) (min-pixel-height-safe . 21) (min-pixel-width-safe . 20)) leaf (pixel-width . 1080) (pixel-height . 1862) (total-width . 108) (total-height . 89) (normal-height . 1.0) (normal-width . 1.0) (buffer "magit-diff: .emacs.d" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1292) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("golden" "IDF" "bash" "exec-path" "uart" "2" "el" "golden" "terminal" "main" ".dir" "p" "theme" "p" "c-mode" "irony-mode"))
+(setq search-ring '("U" "site" "Name" "eciSDP4" "minute" "track" "qt" "dist" "printf" "string" "pring" "multi" "get" "main" "get" "sel"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/Documents/Workspace/Embedded/ARM/TI/TMS570LS1224_Example/.ccsproject" "~/Documents/Workspace/Embedded/ARM/TI/freeRTOS_Blinky/source/sys_main.c" "~/Documents/Workspace/Embedded/ARM/TI/TMS570LS1224_Example/uniflash_osx_64/user_files/configs/tms570ls1224.ccxml" "~/Documents/Workspace/Embedded/ARM/TI/TMS570LS1224_Example/uniflash_osx_64/dslite.sh" "~/Documents/Workspace/Embedded/ARM/TI/freeRTOSBlinky/uniflash_osx_64/dslite.sh" "~/Documents/Workspace/Embedded/ARM/TI/TMS570LS1224_Example/source/sys_main.c" "~/Documents/Workspace/Embedded/ARM/TI/freeRTOSBlinky/source/sys_main.c" "~/Documents/Workspace/Embedded Systems/ARM/TI/freeRTOSBlinky/uniflash_osx_64/dslite.sh" "/Applications/ti/uniflash_5.1.0/detect-devices.sh" "~/.bash_profile" "~/Documents/Workspace/Embedded Systems/ARM/TI/TMS570LS1224_Example/.dir-locals.el" "~/Documents/Workspace/Embedded Systems/ARM/ESP_RTOS/uart_echo/main/.dir-locals.el" "~/Documents/Workspace/Embedded Systems/ARM/ESP_RTOS/uart_echo/main/uart_echo_example_main.c" "~/Documents/Workspace/Embedded Systems/ARM/TI/TMS570LS1224_Example/include/sci.h" "~/Documents/Workspace/Embedded Systems/ARM/TI/freeRTOSBlinky/.dir-locals.el" "~/Documents/Workspace/Embedded Systems/ARM/TI/freeRTOSBlinky/source/sys_main.c" "~/Documents/Workspace/Embedded Systems/ARM/TI/TMS570LS1224_Example/uniflash_osx_64/dslite.sh" "~/Documents/Workspace/Embedded Systems/ARM/TI/TMS570LS1224_Example/source/sys_main.c" "~/Documents/Workspace/mbed/ARM/mbedOS/ADXL345_Tests/main.cpp" "~/Documents/Workspace/mbed/ARM/mbedOS/LIS3DSH_Tests/main.cpp" "~/Documents/Workspace/GitHub/algdscpp/CHAP01/ROMAN2.CPP" "~/Documents/Workspace/GitHub/algdscpp/CHAP01/ROMAN1.CPP" "~/Documents/Workspace/GitHub/algdscpp/ALGDSCPP.TXT" "~/Documents/Workspace/GitHub/Ozgur Odev SIL/input.txt" "~/Documents/Workspace/GitHub/Ozgur Odev SIL/main.c" "~/Documents/Workspace/mbed/ARM/TI/TMS570LS1224_Example/source/esm.c" "~/.emacs.d/README.md" "~/.emacs.d/.emacs" "/usr/local/bin/archey" "~/esp/ESP8266_RTOS_SDK/examples/peripherals/uart_echo/Makefile" "~/Documents/Workspace/mbed/ARM/ESP_RTOS/uart_echo/main/CMakeLists.txt" "~/Documents/Workspace/mbed/ARM/ESP_RTOS/uart_echo/CMakeLists.txt" "~/Documents/Workspace/mbed/ARM/ESP_RTOS/uart_echo/Makefile~" "~/.emacs" "~/esp/ESP8266_RTOS_SDK/make/project.mk" "~/Documents/Workspace/mbed/ARM/ESP_RTOS/uart_echo/Makefile" "~/.bashrc" "~/Documents/Workspace/mbed/ARM/mbedOS/SerialDeviceTerminal/main.cpp" "~/Documents/Workspace/mbed/ARM/TI/TMS570LS1224_Example/source/sys_main.c" "~/Documents/Workspace/mbed/ARM/ESP_RTOS/uart_echo/main/.dir-locals.el" "~/Documents/Workspace/mbed/ARM/TI/TMS570LS1224_Example/.dir-locals.el1~" "~/Documents/Workspace/mbed/ARM/TI/TMS570LS1224_Example/.dir-locals.el1" "~/Documents/Workspace/mbed/ARM/TI/TMS570LS1224_Example/#.dir-locals.el1#" "~/Documents/Workspace/mbed/ARM/ESP_RTOS/uart_echo/main/uart_echo_example_main.c" "~/Documents/Workspace/mbed/ARM/TI/TMS570LS1224_Example/.dir-locals.el" "~/Documents/Workspace/mbed/ARM/TI/TMS570LS1224_Example/.dir-locals.el~" "~/Documents/Workspace/mbed/ARM/ESP_RTOS/uart_echo/main/.dir-locals.el~" "~/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_sleep.h" "~/Documents/Workspace/mbed/ARM/ESP_RTOS/uart_echo/README.md" "~/Documents/Workspace/mbed/ARM/ESP_RTOS/uart_echo/sdkconfig" "~/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/i2c.h" "~/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_err.h" "~/esp/ESP8266_RTOS_SDK/docs/en/api-reference/peripherals/gpio.rst" "~/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/uart.h" "~/esp/ESP8266_RTOS_SDK/docs/en/api-reference/peripherals/uart.rst" "~/Downloads/ESP8266_AT_Bin_V1.7/bin/at/README.md" "~/Documents/Workspace/mbed/ARM/TI/TMS570LS1224_Example/include/i2c.h" "~/Documents/Workspace/mbed/ARM/TI/TMS570LS1224_Example/include/system.h" "~/Documents/Workspace/mbed/ARM/TI/TMS570LS1224_Example/include/reg_sci.h" "~/Documents/Workspace/mbed/ARM/TI/TMS570LS1224_Example/include/Device_TMS570LS12.h" "~/Documents/Workspace/mbed/ARM/test/source/sys_main.c" "~/Documents/Workspace/mbed/ARM/halcogen_example/source/sys_main.c" "~/Documents/Workspace/mbed/ARM/TMS570LS1224PGE_EXAMPLES/source/gio.c" "~/Documents/Workspace/mbed/ARM/TMS570LS1224PGE_EXAMPLES/source/sys_main.c" "~/Documents/Workspace/mbed/ARM/LaunchProj0_TMS57012/source/sys_main.c" "~/Documents/Workspace/mbed/ARM/TMS570LS12X_TEST/main.c" "~/Documents/Workspace/mbed/ARM/fusion.git/main.cpp" "~/Documents/Workspace/mbed/ARM/LSM303C_Compass/main.cpp" "~/Downloads/TCA9548A-version-1.0.1.rc.1/src/TCA9548A.cpp" "~/Documents/Arduino/yunus/yunus.ino" "~/Documents/Workspace/easerr/easerr/ros_ws/src/hector_slam/hector_mapping/src/main_mapper.cpp" "~/Documents/Workspace/easerr/easerr/ros_ws/src/hector_slam/hector_mapping/src/HectorMappingRos.cpp" "~/Documents/Workspace/easerr/easerr/ros_ws/src/hector_slam/hector_mapping/src/main.cpp" "/ssh:pi@192.168.1.104|sudo:root@192.168.1.104:/home/pi/easerr/ros_ws/src/hector_slam/hector_imu_attitude_to_tf/src/imu_attitude_to_tf_node.cpp" "~/Documents/Workspace/easerr/easerr/ros_ws/src/hector_slam/hector_imu_attitude_to_tf/src/imu_attitude_to_tf_node.cpp" "/ssh:pi@192.168.1.104|sudo:root@192.168.1.104:/home/pi/easerr/ros_ws/src/ros-mpu6050-node/src/echo_imu.py" "/ssh:pi@192.168.1.104|sudo:root@192.168.1.104:/home/pi/easerr/ros_ws/src/ros-mpu6050-node/src/mpu6050_node.cpp" "/ssh:pi@192.168.1.104|sudo:root@192.168.1.104:/home/pi/easerr/ros_ws/src/hector_slam/hector_mapping/launch/mapping_default.launch" "/ssh:pi@192.168.1.104|sudo:root@192.168.1.104:/home/pi/easerr/ros_ws/src/hector_slam/hector_slam_launch/launch/tutorial.launch" "/ssh:pi@192.168.1.104|sudo:root@192.168.1.104:/home/pi/easerr/ros_ws/src/hector_slam/hector_imu_tools/src/pose_and_orientation_to_imu_node.cpp" "/ssh:pi@192.168.1.104|sudo:root@192.168.1.104:/home/pi/easerr/ros_ws/src/hector_slam/hector_imu_attitude_to_tf/launch/example.launch" "/ssh:pi@192.168.1.104|sudo:root@192.168.1.104:/home/pi/easerr/ros_ws/src/ros-mpu6050-node/src/mpuTEST.cpp" "/ssh:pi@192.168.1.104|sudo:root@192.168.1.104:/home/pi/wiringPi/wiringPi/wiringPi.c" "/ssh:pi@192.168.1.104|sudo:root@192.168.1.104:/home/pi/wiringPi/examples/speed.c" "/ssh:pi@192.168.1.102|sudo:root@192.168.1.102:/home/pi/catkin_ws/src/sweep-ros/launch/sweep2scan.launch" "/ssh:pi@192.168.1.102|sudo:root@192.168.1.102:/opt/ros/kinetic/share/hector_slam_launch/launch/tutorial.launch" "/ssh:pi@192.168.43.52|sudo:root@192.168.43.52:/opt/ros/kinetic/share/hector_geotiff/launch/geotiff_mapper.launch" "/ssh:pi@192.168.43.52|sudo:root@192.168.43.52:/opt/ros/kinetic/share/hector_mapping/launch/mapping_default.launch" "/ssh:pi@192.168.43.52|sudo:root@192.168.43.52:/opt/ros/kinetic/share/hector_slam_launch/launch/tutorial.launch" "/ssh:pi@192.168.43.52|sudo:root@192.168.43.52:/home/pi/catkin_ws/src/sweep-ros/launch/sweep2scan.launch" "/ssh:pi@192.168.1.102|sudo:root@192.168.1.102:/home/pi/catkin_ws/src/sweep-ros/launch/sweep.launch" "/ssh:pi@192.168.1.102|sudo:root@192.168.1.102:/opt/ros/kinetic/share/hector_mapping/launch/mapping_default.launch" "/ssh:pi@192.168.1.102|sudo:root@192.168.1.102:/opt/ros/kinetic/lib/hector_mapping/hector_mapping" "/ssh:pi@192.168.1.101|sudo:root@192.168.1.101:/opt/ros/kinetic/share/hector_slam_launch/launch/tutorial.launch" "/ssh:pi@192.168.1.101|sudo:root@192.168.1.101:/opt/ros/kinetic/share/hector_mapping/launch/mapping_default.launch" "/ssh:pi@192.168.1.44|sudo:root@192.168.1.44:/home/pi/catkin_ws/src/sweep-ros/launch/sweep2scan.launch" "/ssh:pi@192.168.1.44|sudo:root@192.168.1.44:/opt/ros/kinetic/share/hector_mapping/launch/mapping_default.launch" "/ssh:pi@192.168.1.44|sudo:root@192.168.1.44:/opt/ros/kinetic/share/hector_slam_launch/launch/tutorial.launch" "~/Documents/Workspace/mbed/ARM/fusion/sampleText.txt" "/ssh:pi@192.168.1.44|sudo:root@192.168.1.44:/boot/config.txt"))
+(setq file-name-history '("~/.emacs" "~/.emacs.d/.emacs" "~/Documents/nartspace/nart-gs/OrbitTools/Makefile" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/cJulian.cpp" "~/Documents/nartspace/nart-gs/OrbitTools/cTLE_example.cpp" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/cJulian.h" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/cSite.cpp" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/coreLib.h" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/cSite.h" "~/Documents/nartspace/nart-gs/OrbitTools/main.cpp" "~/Documents/nartspace/nart-gs/Orbit Tools/.dir-locals.el" "~/Documents/nartspace/nart-gs/Orbit Tools/main.cpp" "~/Documents/nartspace/nart-gs/OrbitTools_Test/orbittools--orbittools/cTLE_example.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/main.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/cTLE_example.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/Makefile" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cSite.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cSite.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cTLE.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cJulian.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cTLE.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/orbitLib.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/coreLib.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/.dir-locals.el" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cJulian.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cEci.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cEci.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cOrbit.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cOrbit.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradBase.cpp" "~/Documents/nartspace/nart-gs/KILICSAT_GS/mainwindow.cpp" "~/Documents/Orbit_WS/KILICSAT_GS_yedek/mainwindow.cpp" "~/Documents/Orbit_WS/KILICSAT_GS_yedek/main.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/orbitTools/Defines.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/orbitTools/SysDefine.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradSGP4.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradBase.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradSGP4.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cSatellite.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/Makefile~" "~/#.emacs#" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cSatellite.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/test1.cpp~" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/test1.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/main.cpp~" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/readme.txt" "~/Documents/nartspace/nart-gs/KILICSAT_GS/KILICSAT_GS.pro" "~/.bash_history" "~/.bash_profile" "~/.bashrc" "~/Documents/nartspace/nart-gs/KILICSAT_GS/Makefile" "~/Documents/nartspace/ASELSAT/Makefile" "~/Documents/nartspace/ASELSAT/TESTS/functional/test/main.cpp" "~/Documents/nartspace/ASELSAT/Readme.md" "~/Documents/nartspace/ASELSAT/tasks/EPS_TASK.h" "~/Documents/nartspace/ASELSAT/tasks/EPS_TASK.cpp" "~/Documents/nartspace/ASELSAT/docs/ADCS/Documentation/CubeADCS - Health Check  [V3.16].pdf" "~/Documents/nartspace/ASELSAT/ASELSAT.cpp" "~/Documents/nartspace/ASELSAT/ASELSAT.h" "~/Documents/nartspace/ASELSAT/main.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/README_EN.txt" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/test-001.tle" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/test-002.tle" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/test-001.c" "~/Documents/nartspace/KILICSAT_GS/mainwindow.cpp" "/etc/pacman.conf" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradSDP4.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradSDP4.h" "~/Documents/Orbit_WS/old/lunar/makefile" "~/Documents/Orbit_WS/old/gpredict-2.2.1/Makefile" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/Makefile.am" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/2_README" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/README" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/sgp_in.c" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/sgp_math.c" "/sudo:root@localhost:/etc/pacman.d/mirrorlist" "/etc/pacman.d/mirrorlist" "~/.bash_logout" "/sudo:root@localhost:/usr/include/glib-2.0/glib.h" "/sudo:root@localhost:/usr/include/glib-2.0/glib/galloca.h" "/usr/include/glib-2.0/glib/galloca.h" "/usr/include/glib-2.0/glib.h"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/sems/.emacs.d/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(eldoc-mode company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode auto-revert-mode magit-file-mode)
+  159
+  '(4618 nil)
+  nil
+  nil
+  '((buffer-display-time 23974 52094 480720 339000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/home/sems/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(eldoc-mode company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode)
+  1
+  '(4618 nil)
+  nil
+  nil
+  '((buffer-display-time 23974 52027 742977 761000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/nartspace/nart-gs/OrbitTools/cSite_example.cpp"
+  "cSite_example.cpp"
+  'c++-mode
+  '(abbrev-mode company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode auto-revert-mode magit-file-mode)
+  1271
+  '(850 nil)
+  nil
+  nil
+  '((buffer-display-time 23974 51996 844345 19000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (850 1387 1112 1183 1093 1369 1165 959 957 544 532 610 866 752 753))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/nartspace/nart-gs/OrbitTools/main.cpp"
+  "main.cpp"
+  'c++-mode
+  '(abbrev-mode company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode auto-revert-mode magit-file-mode)
+  3766
+  '(1881 nil)
+  t
+  nil
+  '((buffer-display-time 23972 29147 101509 921000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2881 2893 2336 2359 4638 1 3462 405 3038 1710 3142 3005 2978 3033 3033 3766))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/nartspace/nart-gs/OrbitTools/include/core/cVector.h"
+  "cVector.h"
+  'c++-mode
+  '(abbrev-mode company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode auto-revert-mode magit-file-mode)
+  784
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23972 28852 480932 63000) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/nartspace/nart-gs/OrbitTools/cTLE_example.cpp"
+  "cTLE_example.cpp"
+  'c++-mode
+  '(abbrev-mode company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode auto-revert-mode magit-file-mode)
+  448
+  '(757 nil)
+  nil
+  nil
+  '((buffer-display-time 23972 28538 910969 902000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (568 175))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/nartspace/nart-gs/OrbitTools/Makefile"
+  "Makefile"
+  'makefile-gmake-mode
+  '(company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode auto-revert-mode magit-file-mode)
+  442
+  '(437 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 23972 28263 459648 522000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (406 500 394 302))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/nartspace/nart-gs/OrbitTools/include/core/cEci.cpp"
+  "cEci.cpp"
+  'c++-mode
+  '(abbrev-mode company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode auto-revert-mode magit-file-mode)
+  552
+  '(2357 nil)
+  t
+  nil
+  '((buffer-display-time 23972 28194 381154 3000) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (1 2724 2568 164))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/nartspace/nart-gs/OrbitTools/include/core/cEci.h"
+  "cEci.h"
+  'c++-mode
+  '(abbrev-mode company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode auto-revert-mode magit-file-mode)
+  844
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23972 28169 782673 637000) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/nartspace/nart-gs/OrbitTools/include/core/cSite.cpp"
+  "cSite.cpp"
+  'c++-mode
+  '(abbrev-mode company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode auto-revert-mode magit-file-mode)
+  3
+  '(203 nil)
+  t
+  nil
+  '((buffer-display-time 23972 28019 930893 566000) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (4859 1 967 416))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/nartspace/nart-gs/OrbitTools/include/core/cSite.h"
+  "cSite.h"
+  'c++-mode
+  '(abbrev-mode company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode auto-revert-mode magit-file-mode)
+  704
+  '(696 nil)
+  t
+  nil
+  '((buffer-display-time 23972 27952 525972 360000) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (848 1371 383 1206 789 689 704))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/nartspace/nart-gs/OrbitTools/include/core/cJulian.cpp"
+  "cJulian.cpp"
+  'c++-mode
+  '(abbrev-mode company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode auto-revert-mode magit-file-mode)
+  1449
+  '(1269 nil)
+  t
+  nil
+  '((buffer-display-time 23972 27104 120155 409000) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (1449))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/nartspace/nart-gs/OrbitTools/include/core/cJulian.h"
+  "cJulian.h"
+  'c++-mode
+  '(abbrev-mode company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode auto-revert-mode magit-file-mode)
+  766
+  '(102 nil)
+  nil
+  nil
+  '((buffer-display-time 23972 26146 373707 578000) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/nartspace/nart-gs/OrbitTools/include/core/coreLib.h"
+  "coreLib.h"
+  'c++-mode
+  '(abbrev-mode company-mode override-global-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode auto-revert-mode magit-file-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23972 17075 524976 601000) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring nil)))
+

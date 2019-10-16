@@ -4,6 +4,7 @@
 (setq mc/cmds-to-run-for-all
       '(
 	beginning-of-buffer
+	c-electric-slash
 	c-indent-line-or-region
 	switch-to-buffer
 	))

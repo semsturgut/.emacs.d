@@ -3,7 +3,7 @@
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
 (package-initialize)
 ;; Visual Settings
-(set-frame-font "Source Code Pro 18" nil t)
+(set-frame-font "Source Code Pro 12" nil t)
 (setq-default truncate-lines t)
 ;; (global-visual-line-mode t)
 ;; mac frame issue solver
@@ -12,6 +12,7 @@
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
 (electric-pair-mode 1)
+(menu-bar-mode -1)
 (setq electric-pair-preserve-balance nil)
 ;; (add-to-list 'default-frame-alist '(height . 43))
 ;; (add-to-list 'default-frame-alist '(width . 74))
@@ -31,7 +32,16 @@
 (add-to-list 'company-backends 'company-c-headers)
 ;; Delete selected text
 (delete-selection-mode 1)
-;; yasnippet
+;; Jumping to definition w dumb-jump
+(use-package dumb-jump
+  :bind (("M-g o" . dumb-jump-go-other-window)
+         ("M-g j" . dumb-jump-go)
+         ("M-g i" . dumb-jump-go-prompt)
+         ("M-g x" . dumb-jump-go-prefer-external)
+         ("M-g z" . dumb-jump-go-prefer-external-other-window))
+  :config  (setq dumb-jump-selector 'helm) ;; (setq dumb-jump-selector 'ivy)
+  :ensure)
+;; start yasnippet w emacs
 (require 'yasnippet)
 (yas-global-mode 1)
 ;; Enable Multiple-cursors features
@@ -55,54 +65,50 @@
 (recentf-mode 1)
 (setq recentf-max-menu-items 25)
 (global-set-key "\C-x\ \C-r" 'recentf-open-files)
+;; Edit files by root
+(require 'sudo-edit)
+(global-set-key (kbd "C-c C-r") 'sudo-edit)
 ;; Save last session
 (desktop-save-mode 1)
 ;; spaceline mode
 (require 'spaceline-config)
 (spaceline-spacemacs-theme)
-(setq powerline-image-apple-rgb t)
+;; Uncomment only on Linux distros
+;; (setq-default explicit-shell-file-name "/bin/bash")
+(setq-default shell-file-name "/bin/bash")
+;; Uncomment only on OS X
+;; (setq powerline-image-apple-rgb t)
+;; (exec-path-from-shell-copy-env "IDF_PATH")
+;; (when (memq window-system '(mac ns x))
+;;   (exec-path-from-shell-initialize))
 ;; Show Line Numbers
 (global-linum-mode 1)
 (setq linum-format "%4d \u2502 ")
-;; exec-path-from-shell This fix the PATH issue.
-(exec-path-from-shell-copy-env "IDF_PATH")
-(when (memq window-system '(mac ns x))
-  (exec-path-from-shell-initialize))
 ;; Show bracket colors
 (require 'rainbow-delimiters)
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
-;; This sets $MANPATH, $PATH and exec-path from your shell,
-;; but only on OS X and Linux.
-(when (memq window-system '(mac ns x))
-  (exec-path-from-shell-initialize))
 ;; >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-<
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(company-c-headers-path-system
-   (quote
-    ("/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/")))
- '(company-c-headers-path-user
-   (quote
-    ("/Users/sems/esp/ESP8266_RTOS_SDK/components/freertos/include/" "/Users/sems/esp/ESP8266_RTOS_SDK/components/esp8266/include/")))
+ '(company-c-headers-path-system (quote ("/usr/include/")))
+ '(company-c-headers-path-user nil)
  '(custom-enabled-themes (quote (dracula)))
  '(custom-safe-themes
    (quote
     ("aaffceb9b0f539b6ad6becb8e96a04f2140c8faa1de8039a343a4f1e009174fb" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(package-selected-packages
    (quote
-    (flycheck golden-ratio company-c-headers company rainbow-delimiters ag pos-tip dracula-theme magit restart-emacs spaceline-all-the-icons spaceline helm-core helm yasnippet-snippets multiple-cursors)))
+    (use-package dumb-jump sudo-edit auto-sudoedit flycheck golden-ratio company-c-headers company rainbow-delimiters ag pos-tip dracula-theme magit restart-emacs spaceline-all-the-icons spaceline helm-core helm yasnippet-snippets multiple-cursors)))
  '(safe-local-variable-values
    (quote
-    ((company-clang-arguments "-I/Users/sems/Documents/Workspace/Embedded System/ARM/TI/TMS570LS1224_Example/include/" "-I/Users/sems/Documents/Workspace/Embedded System/ARM/TI/TMS570LS1224_Example/source/")
-     (company-clang-arguments "-I/Users/sems/Documents/Workspace/Embedded System/ARM/TI/TMS570LS1224_Example/include/")
-     (company-clang-arguments "-I/Users/sems/Documents/Workspace/Embedded Systems/ARM/TI/freeRTOSBlinky/include/")
-     (company-clang-arguments "-I/Users/sems/esp/ESP8266_RTOS_SDK/components/esp8266/include/" "-I/Users/sems/esp/ESP8266_RTOS_SDK/components/freertos/include/")
-     (company-clang-arguments "-I/Users/sems/esp/ESP8266_RTOS_SDK/components/esp8266/include/" "-I/Users/sems/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/")
-     (company-clang-arguments "-I/Users/sems/esp/ESP8266_RTOS_SDK/components/esp8266/include/
-" "-I/Users/sems/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/")))))
+    ((company-clang-arguments "-I/home/sems/Documents/nartspace/narg-gs/OrbitTools/")
+     (company-clang-arguments "-I/home/sems/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/")
+     (eval add-hook
+	   (quote before-save-hook)
+	   (quote time-stamp))))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

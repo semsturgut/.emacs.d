@@ -1,10 +1,3 @@
-git clone https://github.com/georgesung/road_lane_line_detection.git
-ls
-cd road_lane_line_detection/
-ls
-python lane_lines.py -i challenge.mp4 -o extra.mp4
-cd Documents/Workspace/mbed/OpenCV/
-ls
 clear
 rm -rf road_lane_line_detection/
 ls
@@ -126,3 +119,10 @@ ROMAN1.o
 ./ROMAN1.o
 g++ ROMAN1.CPP -o ROMAN1.o ; ./ROMAN1.o
 ccstudio
+printenv PATH
+echo $PATH
+echo $
+echo $TERM
+echo $SHELL
+ls
+gcc main.cpp -o main.o
