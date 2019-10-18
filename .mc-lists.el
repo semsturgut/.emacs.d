@@ -11,5 +11,6 @@
 
 (setq mc/cmds-to-run-once
       '(
+	end-of-buffer
 	indent-for-tab-command
 	))

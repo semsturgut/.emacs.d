@@ -70,11 +70,11 @@
 (global-set-key (kbd "C-c C-r") 'sudo-edit)
 ;; Save last session
 (desktop-save-mode 1)
+;; Prevent backup files from being created
+(setq make-backup-files nil)
 ;; spaceline mode
 (require 'spaceline-config)
 (spaceline-spacemacs-theme)
-;; Uncomment only on Linux distros
-;; (setq-default explicit-shell-file-name "/bin/bash")
 (setq-default shell-file-name "/bin/bash")
 ;; Uncomment only on OS X
 ;; (setq powerline-image-apple-rgb t)
