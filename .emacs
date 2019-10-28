@@ -21,15 +21,49 @@
 ;; Additional packages
 ;; Required for c-mode/c++-mode
 (require 'cc-mode)
-;; company-mode for auto complete c/c++
-;; create .dir-locals.el at project_root
-;; example ((nil . ((company-clang-arguments . ("-I/workspace/"))))
-(require 'company)
-(add-hook 'after-init-hook 'global-company-mode)
-(define-key c-mode-map [(C-tab)] 'company-complete)
-(define-key c++-mode-map [(C-tab)] 'company-complete)
-;; header file comletion with company-c-headers
-(add-to-list 'company-backends 'company-c-headers)
+;; irony-mode
+(use-package irony
+  :ensure t
+  :defer t
+  :init
+  (add-hook 'c++-mode-hook 'irony-mode)
+  (add-hook 'c-mode-hook 'irony-mode)
+  (add-hook 'objc-mode-hook 'irony-mode)
+  :config
+  ;; replace the `completion-at-point' and `complete-symbol' bindings in
+  ;; irony-mode's buffers by irony-mode's function
+  (defun my-irony-mode-hook ()
+    (define-key irony-mode-map [remap completion-at-point]
+      'irony-completion-at-point-async)
+    (define-key irony-mode-map [remap complete-symbol]
+      'irony-completion-at-point-async))
+  (add-hook 'irony-mode-hook 'my-irony-mode-hook)
+  (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))
+;; company-mode
+;; write a lisp function switching between headers and common (Use only TAB)
+(use-package company
+  :ensure t
+  :defer t
+  :init (add-hook 'after-init-hook 'global-company-mode)
+  :config
+  (use-package company-irony :ensure t :defer t)
+  (setq company-idle-delay              1
+	company-minimum-prefix-length   2
+	company-show-numbers            t
+	company-tooltip-limit           20
+	company-dabbrev-downcase        nil
+	company-backends                '((company-irony company-gtags))
+	)
+  :bind (([(C-tab)] . company-complete-common)
+	 ([(C-tab)] . company-c-headers)
+	 )
+  )
+;; company-irony-c-headers
+(require 'company-irony-c-headers)
+;; Load with `irony-mode` as a grouped backend
+(eval-after-load 'company
+  '(add-to-list
+    'company-backends '(company-irony-c-headers company-irony)))
 ;; Delete selected text
 (delete-selection-mode 1)
 ;; Jumping to definition w dumb-jump
@@ -93,20 +127,16 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(company-c-headers-path-system (quote ("/usr/include/")))
- '(company-c-headers-path-user nil)
  '(custom-enabled-themes (quote (dracula)))
  '(custom-safe-themes
    (quote
     ("aaffceb9b0f539b6ad6becb8e96a04f2140c8faa1de8039a343a4f1e009174fb" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(package-selected-packages
    (quote
-    (use-package dumb-jump sudo-edit auto-sudoedit flycheck golden-ratio company-c-headers company rainbow-delimiters ag pos-tip dracula-theme magit restart-emacs spaceline-all-the-icons spaceline helm-core helm yasnippet-snippets multiple-cursors)))
+    (company-irony-c-headers company-irony irony use-package dumb-jump sudo-edit auto-sudoedit flycheck golden-ratio company-c-headers company rainbow-delimiters ag pos-tip dracula-theme magit restart-emacs spaceline-all-the-icons spaceline helm-core helm yasnippet-snippets multiple-cursors)))
  '(safe-local-variable-values
    (quote
-    ((company-clang-arguments "-I/home/sems/Documents/nartspace/narg-gs/OrbitTools/")
-     (company-clang-arguments "-I/home/sems/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/")
-     (eval add-hook
+    ((eval add-hook
 	   (quote before-save-hook)
 	   (quote time-stamp))))))
 (custom-set-faces
