@@ -2,54 +2,126 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Oct 28 18:13:02 2019
+;; Created Tue Nov 12 10:30:22 2019
 ;; Desktop file format version 208
 ;; Emacs version 26.3
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23991 1406 169926 194000) (desktop . "208") "sems@gumush" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-ADBO-Source Code Pro-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (font-parameter . "Source Code Pro 12") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#f8f8f2") (background-color . "#282a36") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#ccccc7") (sticky) (environment) (powerline-cache) (frameset--id . "0182-C0D2-EC0D-93FA") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (height . 89) (width . 106) (left + -1) (top + -1)) ((min-height . 4) (min-width . 11) (min-height-ignore . 3) (min-width-ignore . 11) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 84) (min-pixel-width . 110) (min-pixel-height-ignore . 63) (min-pixel-width-ignore . 110) (min-pixel-height-safe . 21) (min-pixel-width-safe . 20)) leaf (pixel-width . 1080) (pixel-height . 1862) (total-width . 108) (total-height . 88) (normal-height . 1.0) (normal-width . 1.0) (buffer ".emacs" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 7) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1449) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (24010 24462 211654 147000) (desktop . "208") "sems@gumush" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-ADBO-Source Code Pro-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (font-parameter . "Source Code Pro 12") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#f8f8f2") (background-color . "#282a36") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#ccccc7") (sticky) (environment) (powerline-cache) (frameset--id . "0182-C0D2-EC0D-93FA") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (height . 89) (width . 106) (left + -1) (top + -1)) ((min-height . 8) (min-width . 11) (min-height-ignore . 6) (min-width-ignore . 11) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 168) (min-pixel-width . 110) (min-pixel-height-ignore . 126) (min-pixel-width-ignore . 110) (min-pixel-height-safe . 42) (min-pixel-width-safe . 20)) vc (pixel-width . 1080) (pixel-height . 1862) (total-width . 108) (total-height . 89) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1080) (pixel-height . 1162) (total-width . 108) (total-height . 55) (normal-height . 0.6240601503759399) (normal-width . 1.0) (buffer ".emacs<sems>" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 7) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 695) (start . 324))) (leaf (last . t) (pixel-width . 1080) (pixel-height . 700) (total-width . 108) (total-height . 34) (normal-height . 0.37593984962406013) (normal-width . 1.0) (buffer "magit: .emacs.d" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("com" "company" "irony" "company-iron" "ir" "Geo" "U" "site" "Name" "eciSDP4" "minute" "track" "qt" "dist" "printf" "string"))
+(setq search-ring '("set" "commanded" "Commandc" "uart" "SIZE" "SAVE" "set_wheel" "setwheel" "sendcommand" "adcs_set_wheels" "re" "ADCS" "camera" "SendCommand" "write" "sendcommand"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/Documents/nart-gs/OrbitTools/.dir-locals.el" "~/Documents/nart-gs/OrbitTools/.dir-locals.el.backup" "~/Documents/nart-gs/OrbitTools/#updateTLE.cpp#" "~/Documents/nart-gs/OrbitTools/getDate.cpp" "~/Documents/nart-gs/OrbitTools/updateTLE.cpp" "~/.emacs" "/usr/include/curl/curl.h" "~/Documents/nartspace/nart-gs/OrbitTools/Makefile" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/cJulian.h" "~/Documents/nartspace/nart-gs/OrbitTools/include/orbit/cOrbit.h" "~/Documents/nartspace/nart-gs/OrbitTools/include/orbit/cNoradSGP4.h" "~/Documents/nartspace/nart-gs/OrbitTools/include/orbit/cNoradSGP4.cpp" "~/Documents/nartspace/nart-gs/OrbitTools/include/orbit/orbitLib.h" "~/Documents/nartspace/nart-gs/OrbitTools/cTLE_result" "~/Documents/nartspace/nart-gs/OrbitTools/cSite_example.cpp~" "~/Documents/nartspace/nart-gs/OrbitTools/cTLE_example.cpp~" "~/Documents/nartspace/nart-gs/OrbitTools/.dir-locals.el~" "~/Documents/nartspace/nart-gs/OrbitTools/main.cpp~" "~/Documents/nartspace/nart-gs/OrbitTools/Makefile~" "~/.bash_profile~" "~/.bashrc~" "~/.emacs~" "~/Documents/nartspace/nart-gs/OrbitTools/cTLE_example.cpp" "~/Documents/nartspace/nart-gs/OrbitTools/cSite_example.cpp" "~/.emacs.d/.emacs" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/cJulian.cpp" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/cSite.cpp" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/coreLib.h" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/cSite.h" "~/Documents/nartspace/nart-gs/OrbitTools/main.cpp" "~/Documents/nartspace/nart-gs/Orbit Tools/.dir-locals.el" "~/Documents/nartspace/nart-gs/Orbit Tools/main.cpp" "~/Documents/nartspace/nart-gs/OrbitTools_Test/orbittools--orbittools/cTLE_example.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/main.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/cTLE_example.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/Makefile" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cSite.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cSite.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cTLE.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cJulian.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cTLE.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/orbitLib.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/coreLib.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/.dir-locals.el" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cJulian.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cEci.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cEci.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cOrbit.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cOrbit.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradBase.cpp" "~/Documents/nartspace/nart-gs/KILICSAT_GS/mainwindow.cpp" "~/Documents/Orbit_WS/KILICSAT_GS_yedek/mainwindow.cpp" "~/Documents/Orbit_WS/KILICSAT_GS_yedek/main.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/orbitTools/Defines.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/orbitTools/SysDefine.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradSGP4.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradBase.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradSGP4.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cSatellite.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/Makefile~" "~/#.emacs#" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cSatellite.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/test1.cpp~" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/test1.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/main.cpp~" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/readme.txt" "~/Documents/nartspace/nart-gs/KILICSAT_GS/KILICSAT_GS.pro" "~/.bash_history" "~/.bash_profile" "~/.bashrc" "~/Documents/nartspace/nart-gs/KILICSAT_GS/Makefile" "~/Documents/nartspace/ASELSAT/Makefile" "~/Documents/nartspace/ASELSAT/TESTS/functional/test/main.cpp" "~/Documents/nartspace/ASELSAT/Readme.md" "~/Documents/nartspace/ASELSAT/tasks/EPS_TASK.h" "~/Documents/nartspace/ASELSAT/tasks/EPS_TASK.cpp" "~/Documents/nartspace/ASELSAT/docs/ADCS/Documentation/CubeADCS - Health Check  [V3.16].pdf" "~/Documents/nartspace/ASELSAT/ASELSAT.cpp" "~/Documents/nartspace/ASELSAT/ASELSAT.h" "~/Documents/nartspace/ASELSAT/main.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/README_EN.txt" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/test-001.tle" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/test-002.tle" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/test-001.c" "~/Documents/nartspace/KILICSAT_GS/mainwindow.cpp" "/etc/pacman.conf" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradSDP4.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradSDP4.h" "~/Documents/Orbit_WS/old/lunar/makefile" "~/Documents/Orbit_WS/old/gpredict-2.2.1/Makefile" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/Makefile.am" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/2_README" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/README" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/sgp_in.c" "~/Documents/Orbit_WS/OrbitTools_Test/sgpsdp/sgp_math.c" "/sudo:root@localhost:/etc/pacman.d/mirrorlist" "/etc/pacman.d/mirrorlist" "~/.bash_logout" "/sudo:root@localhost:/usr/include/glib-2.0/glib.h" "/sudo:root@localhost:/usr/include/glib-2.0/glib/galloca.h"))
+(setq file-name-history '("~/.emacs.d/.emacs" "~/Documents/ASELSAT/libraries/ADCS/ADCS.h" "~/Documents/ASELSAT/libraries/ADCS/ADCS.cpp" "~/Documents/ASELSAT/tasks/ADCS_TASK.cpp" "~/Documents/ASELSAT/main.cpp" "~/Documents/ASELSAT/mbed_app.json" "~/Documents/ASELSAT/mbed-os.lib" "~/Documents/ASELSAT/mbed-os/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F429xI/TARGET_NUCLEO_F429ZI/PinNames.h" "~/Documents/ASELSAT/mbed_settings.py" "~/Documents/ASELSAT/Makefile" "~/Documents/ASELSAT/tasks/ADCS_TASK.h" "~/Documents/ASELSAT/TASKS.h" "~/Documents/ASELSAT/#main.cpp#" "~/.emacs" "~/Documents/ASELSAT/mbed-os/tools/profiles/extensions/minimal-printf.json" "~/Documents/ASELSAT/ASELSAT.cpp" "~/Documents/ASELSAT/ASELSAT.h" "~/Documents/ASELSAT/mbed-os/targets/targets.json" "~/.bashrc" "/etc/pacman.conf" "~/Documents/nart-gs/OrbitTools/tle.txt" "~/Documents/nart-gs/OrbitTools/TLE_Sample.txt" "~/Documents/nart-gs/OrbitTools/updateTLE.cpp" "~/Documents/nart-gs/OrbitTools/Makefile" "~/Documents/nart-gs/OrbitTools/.dir-locals.el" "~/Documents/nart-gs/OrbitTools/.dir-locals.el.backup" "~/Documents/nart-gs/OrbitTools/#updateTLE.cpp#" "~/Documents/nart-gs/OrbitTools/getDate.cpp" "/usr/include/curl/curl.h" "~/Documents/nartspace/nart-gs/OrbitTools/Makefile" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/cJulian.h" "~/Documents/nartspace/nart-gs/OrbitTools/include/orbit/cOrbit.h" "~/Documents/nartspace/nart-gs/OrbitTools/include/orbit/cNoradSGP4.h" "~/Documents/nartspace/nart-gs/OrbitTools/include/orbit/cNoradSGP4.cpp" "~/Documents/nartspace/nart-gs/OrbitTools/include/orbit/orbitLib.h" "~/Documents/nartspace/nart-gs/OrbitTools/cTLE_result" "~/Documents/nartspace/nart-gs/OrbitTools/cSite_example.cpp~" "~/Documents/nartspace/nart-gs/OrbitTools/cTLE_example.cpp~" "~/Documents/nartspace/nart-gs/OrbitTools/.dir-locals.el~" "~/Documents/nartspace/nart-gs/OrbitTools/main.cpp~" "~/Documents/nartspace/nart-gs/OrbitTools/Makefile~" "~/.bash_profile~" "~/.bashrc~" "~/.emacs~" "~/Documents/nartspace/nart-gs/OrbitTools/cTLE_example.cpp" "~/Documents/nartspace/nart-gs/OrbitTools/cSite_example.cpp" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/cJulian.cpp" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/cSite.cpp" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/coreLib.h" "~/Documents/nartspace/nart-gs/OrbitTools/include/core/cSite.h" "~/Documents/nartspace/nart-gs/OrbitTools/main.cpp" "~/Documents/nartspace/nart-gs/Orbit Tools/.dir-locals.el" "~/Documents/nartspace/nart-gs/Orbit Tools/main.cpp" "~/Documents/nartspace/nart-gs/OrbitTools_Test/orbittools--orbittools/cTLE_example.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/main.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/cTLE_example.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/Makefile" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cSite.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cSite.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cTLE.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cJulian.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cTLE.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/orbitLib.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/coreLib.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/.dir-locals.el" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cJulian.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cEci.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/cEci.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cOrbit.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cOrbit.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradBase.cpp" "~/Documents/nartspace/nart-gs/KILICSAT_GS/mainwindow.cpp" "~/Documents/Orbit_WS/KILICSAT_GS_yedek/mainwindow.cpp" "~/Documents/Orbit_WS/KILICSAT_GS_yedek/main.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/orbitTools/Defines.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/orbitTools/SysDefine.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradSGP4.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradBase.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cNoradSGP4.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cSatellite.h" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/Makefile~" "~/#.emacs#" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/orbit/cSatellite.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/test1.cpp~" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/test1.cpp" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/main.cpp~" "~/Documents/Orbit_WS/OrbitTools_Test/orbittools--orbittools/include/core/readme.txt" "~/Documents/nartspace/nart-gs/KILICSAT_GS/KILICSAT_GS.pro" "~/.bash_history" "~/.bash_profile" "~/Documents/nartspace/nart-gs/KILICSAT_GS/Makefile" "~/Documents/nartspace/ASELSAT/Makefile" "~/Documents/nartspace/ASELSAT/TESTS/functional/test/main.cpp" "~/Documents/nartspace/ASELSAT/Readme.md" "~/Documents/nartspace/ASELSAT/tasks/EPS_TASK.h" "~/Documents/nartspace/ASELSAT/tasks/EPS_TASK.cpp" "~/Documents/nartspace/ASELSAT/docs/ADCS/Documentation/CubeADCS - Health Check  [V3.16].pdf" "~/Documents/nartspace/ASELSAT/ASELSAT.cpp" "~/Documents/nartspace/ASELSAT/ASELSAT.h"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
   "/home/sems/.emacs"
   ".emacs"
   'emacs-lisp-mode
-  '(eldoc-mode override-global-mode company-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode)
-  1449
-  '(742 nil)
+  '(eldoc-mode override-global-mode company-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode golden-ratio-mode)
+  695
+  '(729 nil)
   nil
   nil
-  '((buffer-display-time 23991 1318 353742 105000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (2168 1419 1404 1926 1944 1914 1874 1952 1864 1886 5049 1953 1403 1910 1402))))
+  '((buffer-display-time 24010 24410 89277 131000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2026 2027 3864 1802 1654 1598 3821))))
 
 (desktop-create-buffer 208
-  "/home/sems/Documents/nart-gs/OrbitTools/getDate.cpp"
-  "getDate.cpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode irony-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode)
-  333
-  '(333 nil)
+  "/home/sems/Documents/ASELSAT/.clang_complete"
+  ".clang_complete"
+  'fundamental-mode
+  '(override-global-mode company-mode yas-minor-mode helm-mode linum-mode golden-ratio-mode magit-file-mode)
+  1
+  '(32 nil)
   nil
   nil
-  '((buffer-display-time 23991 1318 353541 824000) (buffer-file-coding-system . undecided-unix))
-  '((mark-ring (1128 333 1156 334 1057 1129 1182 229 206 1501 771 1498 1268 1250 1246))))
+  '((buffer-display-time 24010 24372 802372 655000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (70 721 33 32 1))))
 
 (desktop-create-buffer 208
-  "/home/sems/Documents/nart-gs/OrbitTools/updateTLE.cpp"
-  "updateTLE.cpp"
-  'c++-mode
-  '(abbrev-mode override-global-mode company-mode irony-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode)
-  11
+  "/home/sems/.emacs.d/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(eldoc-mode override-global-mode company-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode golden-ratio-mode auto-revert-mode magit-file-mode)
+  3732
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 23991 1046 32195 765000) (buffer-file-coding-system . utf-8-unix))
+  '((buffer-display-time 24010 24360 111238 509000) (buffer-file-coding-system . undecided-unix))
   '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/ASELSAT/libraries/ADCS/ADCS.cpp"
+  "ADCS.cpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode irony-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode golden-ratio-mode auto-revert-mode magit-file-mode)
+  9080
+  '(9037 nil)
+  nil
+  nil
+  '((buffer-display-time 24010 23912 927264 639000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (5540 4929 6236 2880 1647 5519 8808 9346 711 1992 1439 1405 1643 1461 343 368))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/ASELSAT/libraries/ADCS/ADCS.h"
+  "ADCS.h"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode irony-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode golden-ratio-mode auto-revert-mode magit-file-mode)
+  914
+  '(974 nil)
+  nil
+  nil
+  '((buffer-display-time 24010 23912 927264 845000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (914 974 922 1597 13031 12506 12214 12030 12029 12728 12452 12409 12870 12848 12909 12830))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/ASELSAT/structures.h"
+  "structures.h"
+  'c-mode
+  '(abbrev-mode override-global-mode company-mode irony-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode golden-ratio-mode auto-revert-mode magit-file-mode)
+  646
+  '(539 nil)
+  nil
+  nil
+  '((buffer-display-time 24009 21482 627103 441000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (441 779 646))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/ASELSAT/tasks/ADCS_TASK.cpp"
+  "ADCS_TASK.cpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode irony-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode golden-ratio-mode auto-revert-mode magit-file-mode)
+  9717
+  '(9663 nil)
+  nil
+  nil
+  '((buffer-display-time 24009 18342 560272 505000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (9469 9561 9656 99 9524 9672 9648 9597 9466 9467 9413 9310 9308 9717 9115 9656))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/ASELSAT/main.cpp"
+  "main.cpp"
+  'c++-mode
+  '(abbrev-mode override-global-mode company-mode irony-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode golden-ratio-mode auto-revert-mode magit-file-mode)
+  40
+  '(40 nil)
+  nil
+  nil
+  '((buffer-display-time 24009 10807 571773 393000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (40 2422 1146 1 1226 1262 1111 1062 71 42 22 2420 1144 1057 747 1105))))
+
+(desktop-create-buffer 208
+  "/home/sems/Documents/ASELSAT/mbed_app.json"
+  "mbed_app.json"
+  'js-mode
+  '(override-global-mode company-mode yas-minor-mode helm-mode linum-mode rainbow-delimiters-mode golden-ratio-mode auto-revert-mode magit-file-mode)
+  704
+  '(421 nil)
+  nil
+  nil
+  '((buffer-display-time 24009 10789 773887 105000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (347 704 876 876 377 375 876 373 432 419 374 375 341 375 875 704))))
 

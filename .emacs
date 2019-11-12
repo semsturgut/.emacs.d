@@ -19,6 +19,10 @@
 (setq inhibit-startup-screen t)
 ;; >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< 
 ;; Additional packages
+;; >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< 
+;; Add headers location into file name given below.
+;; File name: .clang_complete
+;; Example: -I/home/user/Your_Header_Location/
 ;; Required for c-mode/c++-mode
 (require 'cc-mode)
 ;; irony-mode
@@ -54,10 +58,7 @@
 	company-dabbrev-downcase        nil
 	company-backends                '((company-irony company-gtags))
 	)
-  :bind (([(C-tab)] . company-complete-common)
-	 ([(C-tab)] . company-c-headers)
-	 )
-  )
+  :bind (([(C-tab)] . company-complete-common)))
 ;; company-irony-c-headers
 (require 'company-irony-c-headers)
 ;; Load with `irony-mode` as a grouped backend
@@ -109,6 +110,7 @@
 ;; spaceline mode
 (require 'spaceline-config)
 (spaceline-spacemacs-theme)
+;; Uncomment only on Linux
 (setq-default shell-file-name "/bin/bash")
 ;; Uncomment only on OS X
 ;; (setq powerline-image-apple-rgb t)
@@ -145,3 +147,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+(put 'magit-clean 'disabled nil)
