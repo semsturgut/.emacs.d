@@ -23,6 +23,8 @@
 ;; Add headers location into file name given below.
 ;; File name: .clang_complete
 ;; Example: -I/home/user/Your_Header_Location/
+;; Shell command that gives you header subfolder locations, and write into .clang_complete file
+;; find /home/sems/Documents/nart-rtos/ -name *.h -printf "-I%h\n" | sort -u >> .clang_complete
 ;; Required for c-mode/c++-mode
 (require 'cc-mode)
 ;; irony-mode
