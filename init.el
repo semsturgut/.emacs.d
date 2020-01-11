@@ -18,9 +18,6 @@
 ;; >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< 
 ;; Additional packages
 ;; >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-< >-<
-;; Arduino Mode
-(setq auto-mode-alist (cons '("\\.\\(pde\\|ino\\)$" . arduino-mode) auto-mode-alist))
-(autoload 'arduino-mode "arduino-mode" "Arduino editing mode." t)
 ;; Dart mode for flutter support
 (unless (package-installed-p 'dart-mode)
   (package-refresh-contents)
@@ -175,7 +172,7 @@
  '(flutter-sdk-path "/Users/sems/flutter/" t)
  '(package-selected-packages
    (quote
-    (company-arduino arduino-mode dart-server web-mode use-package-ensure-system-package flutter-l10n-flycheck flutter dart-mode company-irony-c-headers company-irony irony use-package dumb-jump sudo-edit auto-sudoedit flycheck golden-ratio company-c-headers company rainbow-delimiters ag pos-tip dracula-theme magit restart-emacs spaceline-all-the-icons spaceline helm-core helm yasnippet-snippets multiple-cursors)))
+    (dart-server web-mode use-package-ensure-system-package flutter-l10n-flycheck flutter dart-mode company-irony-c-headers company-irony irony use-package dumb-jump sudo-edit auto-sudoedit flycheck golden-ratio company-c-headers company rainbow-delimiters ag pos-tip dracula-theme magit restart-emacs spaceline-all-the-icons spaceline helm-core helm yasnippet-snippets multiple-cursors)))
  '(safe-local-variable-values
    (quote
     ((eval add-hook
