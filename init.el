@@ -54,7 +54,8 @@
   :after flutter
   :config
   (flutter-l10n-flycheck-setup))
-;; Add headers location into file name given below.
+;; Command below gives you header subfolder locations.
+;; find $(pwd) -name *.h -printf "-I%h\n" | sort -u >> .clang_complete
 ;; File name: .clang_complete
 ;; Example: -I/home/user/Your_Header_Location/
 ;; Required for c-mode/c++-mode
