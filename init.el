@@ -1,3 +1,34 @@
+;; Install use-package
+(condition-case nil
+    (require 'use-package)
+  (file-error
+   (require 'package)
+   (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+   (package-initialize)
+   (package-refresh-contents)
+   (package-install 'use-package)
+   (require 'use-package)))
+
+(use-package lsp-mode :ensure t)
+(use-package lsp-dart 
+  :ensure t 
+  :hook (dart-mode . lsp))
+
+;; Optional packages
+(use-package projectile :ensure t) ;; project management
+(use-package yasnippet
+  :ensure t
+  :config (yas-global-mode)) ;; snipets
+(use-package lsp-ui :ensure t) ;; UI for LSP
+(use-package company :ensure t) ;; Auto-complete
+
+;; Optional Flutter packages
+(use-package hover :ensure t) ;; run app from desktop without emulator
+
+(with-eval-after-load 'projectile
+  (add-to-list 'projectile-project-root-files-bottom-up "pubspec.yaml")
+  (add-to-list 'projectile-project-root-files-bottom-up "BUILD"))
+
 ;; Melpa Package
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
@@ -64,14 +95,17 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-)
+ )
 (put 'magit-clean 'disabled nil)
 (custom-set-variables
-;; custom-set-variables was added by Custom.
-;; If you edit it by hand, you could mess it up, so be careful.
-;; Your init file should contain only one such instance.
-;; If there is more than one, they won't work right.
-'(custom-enabled-themes (quote (dracula)))
-'(custom-safe-themes
-  (quote
-   ("aaffceb9b0f539b6ad6becb8e96a04f2140c8faa1de8039a343a4f1e009174fb" default))))
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes (quote (dracula)))
+ '(custom-safe-themes
+   (quote
+    ("aaffceb9b0f539b6ad6becb8e96a04f2140c8faa1de8039a343a4f1e009174fb" default)))
+ '(package-selected-packages
+   (quote
+    (hover company lsp-ui yasnippet lsp-dart use-package-ensure-system-package sudo-edit spaceline restart-emacs request-deferred rainbow-delimiters projectile pos-tip multiple-cursors magit lsp-mode irony helm-mode-manager golden-ratio exec-path-from-shell dumb-jump dracula-theme all-the-icons))))
