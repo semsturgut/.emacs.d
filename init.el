@@ -1,43 +1,18 @@
-;; Install use-package
-(condition-case nil
-    (require 'use-package)
-  (file-error
-   (require 'package)
-   (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
-   (package-initialize)
-   (package-refresh-contents)
-   (package-install 'use-package)
-   (require 'use-package)))
-
-(use-package lsp-mode :ensure t)
-(use-package lsp-dart 
-  :ensure t 
-  :hook (dart-mode . lsp))
-
-;; Optional packages
-(use-package projectile :ensure t) ;; project management
-(use-package yasnippet
-  :ensure t
-  :config (yas-global-mode)) ;; snipets
-(use-package lsp-ui :ensure t) ;; UI for LSP
-(use-package company :ensure t) ;; Auto-complete
-
-;; Optional Flutter packages
-(use-package hover :ensure t) ;; run app from desktop without emulator
-
-(with-eval-after-load 'projectile
-  (add-to-list 'projectile-project-root-files-bottom-up "pubspec.yaml")
-  (add-to-list 'projectile-project-root-files-bottom-up "BUILD"))
-
 ;; Melpa Package
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
 (package-initialize)
+;; Use package
+(require 'use-package)
+;; Start server
+(server-start)
 ;; Visual Settings
 (set-frame-font "Source Code Pro 16" nil t)
+;; Wrap toggle off
 (setq-default truncate-lines t)
+;; Wrap toggle on
 ;; (global-visual-line-mode t)
-;; mac frame issue solver  
+;; macOS frame issue solver  
 (setq frame-resize-pixelwise t)
 (show-paren-mode 1)
 (scroll-bar-mode -1)
@@ -63,7 +38,7 @@
 (global-set-key (kbd "C-x c") #'restart-emacs)
 ;; delete file
 (global-set-key (kbd "C-c x c") #'delete-file)
-;; Show recent filesn
+;; Show recent files
 (recentf-mode 1)
 (setq recentf-max-menu-items 25)
 (global-set-key "\C-x\ \C-r" 'recentf-open-files)
@@ -77,9 +52,10 @@
 ;; spaceline mode
 (require 'spaceline-config)
 (spaceline-spacemacs-theme)
+;; Fix for bash configuration
 ;; Uncomment only on Linux
 ;; (setq-default shell-file-name "/bin/bash")
-;; Uncomment only on OS X
+;; Uncomment only on macOS
 (setq powerline-image-apple-rgb t)
 (exec-path-from-shell-copy-env "IDF_PATH")
 (when (memq window-system '(mac ns x))
@@ -89,7 +65,38 @@
 (setq linum-format "%4d \u2502 ")
 ;; Show bracket colors
 (require 'rainbow-delimiters)
- (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+;; Delete selection
+(delete-selection-mode 1)
+
+;; ---===================---
+;; ---Additional Packages---
+;; ---===================---
+
+;; (use-package lsp-mode :ensure t)
+;; (use-package lsp-dart 
+;;   :ensure t 
+;;   :hook (dart-mode . lsp))
+
+;; ;; Optional packages
+;; (use-package projectile :ensure t) ;; project management
+;; (use-package yasnippet
+;;   :ensure t
+;;   :config (yas-global-mode)) ;; snipets
+;; (use-package lsp-ui :ensure t) ;; UI for LSP
+;; (use-package company :ensure t) ;; Auto-complete
+
+;; ;; Optional Flutter packages
+;; (use-package hover :ensure t) ;; run app from desktop without emulator
+
+;; (with-eval-after-load 'projectile
+;;   (add-to-list 'projectile-project-root-files-bottom-up "pubspec.yaml")
+;;   (add-to-list 'projectile-project-root-files-bottom-up "BUILD"))
+
+;; ---===================---
+;; ---End---
+;; ---===================---
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
